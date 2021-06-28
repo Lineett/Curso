@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons-checkboxes-selects</title>
+</head>
+<body>
+
+    <h1>Radio buttons, checkboxes and selects</h1>
+
+    <form action="/pizza">
+
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">Yes, I agree</label>
+        <button>Submit</button>
+    
+
+    <p><h2>Radio buttons</h2></p>
+
+    <label for="XS">XS:</label>
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="S">S:</label>
+    <input type="radio" name="size" id="s" value="s">
+    <label for="M">M:</label>
+    <input type="radio" name="size" id="m" value="m">
+
+    <p><h2>Selects</h2></p>
+
+    <label for="meal">Select a meal</label>
+    <select name="meal" id="meal">
+
+        <option value="fish">Fish</option>
+        <option value="chicken">Chicken</option>
+        <option value="pizza">Pizza</option>
+        <option value="tacos">Tacos</option>
+    
+    </select>
+
+    <p><h2>Range</h2></p>
+
+    <label for="cheese">Amount of cheese</label>
+    <input type="range" id="cheese" min="1" max="10" name="cheese_level">
+
+    <p><h2>Text Area</h2></p>
+
+    <label for="">Introduce yourself</label>
+    <textarea name="intro" placeholder="Type here" id="introduction" cols="20" rows="5"></textarea>
+
+    <p><h3>Forms Practice Exercise</h3></p>
+    
+    <p>
+        <label for="username">Enter your username:</label>
+        <input id="username" type="text" placeholder="username" name="username">
+    </p>
+
+    <p>
+        <label for="password">Enter your password:</label>
+        <input id="password" type="text" placeholder="password" name="password">
+    </p>
+
+</form>
+    
+    
+</body>
+</html>
