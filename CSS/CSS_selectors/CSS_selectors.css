@@ -2,12 +2,35 @@
     color: black;
 }
 
-button{
+/* button{
 
     font-size: 25px;
-}
+} */
 
 h1, h2{
 
     color: blueviolet;
+}
+
+#signup{
+
+    color: coral;
+    background-color: cornflowerblue;
+}
+
+h2 + button{
+
+    color: gold;
+    background-color: indianred;
+}
+
+footer > a{
+
+    color: black;
+    background-color: slategray;
+}
+
+input[type="password"]{
+
+    color: darkorange;
 }

@@ -1,0 +1,29 @@
+
+h2 + button{
+
+    color: gold;
+    background-color: indianred;
+}
+
+button:hover{
+
+    color: darkturquoise;
+    background-color: ghostwhite;
+}
+
+footer > a:active{
+
+    color: maroon;
+    background-color: greenyellow;
+}
+
+li:nth-of-type(2n){
+
+    background-color: palevioletred;
+
+}
+
+input[type="radio"]:checked{
+
+    box-shadow: rebeccapurple;
+}
