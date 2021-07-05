@@ -1,0 +1,15 @@
+h2::first-letter{
+
+    color: blueviolet;
+    font-size: 40px;
+}
+
+p::first-line{
+
+    background-color: cornflowerblue;
+}
+
+h2::selection{
+
+    color: yellow;
+}

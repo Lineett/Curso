@@ -1,0 +1,13 @@
+h1{
+
+    background-color: palevioletred;
+    border: 1px aquamarine solid;
+    display: inline;
+}
+
+span{
+
+    background-color: yellowgreen;
+    border: 1px black solid;
+    display: block;
+}

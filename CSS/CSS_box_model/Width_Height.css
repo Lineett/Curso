@@ -1,0 +1,37 @@
+div{
+
+    width: 200px;
+    height: 250px;
+    
+}
+
+#uno{
+
+    background-color: cyan;
+    border-width: 3px;
+    border-color: springgreen;
+    border-style: dashed;
+    border sizing: border-box;
+}
+
+#dos{
+
+    background-color: darkorchid;
+    border-width: 3px;
+    border-color: palevioletred;
+    border-style: solid;
+}
+
+/*] #tres{
+
+    background-color: seagreen;
+    border-width: 3px;
+    border-color: royalblue;
+    border-style: dotted;
+} */
+
+#tres{
+
+    background-color: salmon;
+    border: 3px chocolate solid
+}
