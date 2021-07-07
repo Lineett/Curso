@@ -1,0 +1,21 @@
+section{
+
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+#rgba{
+
+    width: 50%;
+    height: 50%;
+    background-color: rgba(225, 225, 255, 1);
+    opacity: 0.3;
+}
+
+#opacity{
+
+    width: 50%;
+    height: 50%;
+    background-color: salmon
+}
