@@ -1,0 +1,15 @@
+section{
+
+    width: 80%;
+    height: 800px;
+    background-image: url(https://www.happets.com/blog/wp-content/uploads/2019/09/al-agua-perros-guia-de-playas-dogfriendly-en-espana--1180x787.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+}
+
+h1{
+    font-size: 100px;
+    color: violet;
+}

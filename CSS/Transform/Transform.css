@@ -1,0 +1,51 @@
+h1{
+
+    background-color: darksalmon;
+    border: 5px solid aquamarine;
+    color: palevioletred;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n){
+
+    background-color: peru;
+}
+
+h1:nth-of-type(3n){
+
+    background-color: plum;
+}
+
+h1:nth-of-type(4n){
+
+    background-color: palegreen;
+}
+
+section:first-of-type h1:nth-last-of-type(1){
+
+    transform: rotate(45deg);
+    transform-origin: top right;
+}
+
+section:first-of-type h1:nth-last-of-type(2){
+
+    transform: scale(0.5);
+    
+}
+
+section:first-of-type h1:nth-last-of-type(3){
+
+    transform: translate(200px);
+    
+}
+
+section:nth-of-type(2) h1:nth-last-of-type(4){
+
+    transform: skew(30deg);
+}
