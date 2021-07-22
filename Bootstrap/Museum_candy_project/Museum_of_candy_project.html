@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="#" class="navbar-brand">CANDY</a>
         <button class="navbar-toggler" data-toggler="collapse" data-target="#navLinks" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,9 +31,95 @@
             </div>
         </nav>
 
+        <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        <h1>MUSEUM <span>/</span>OF<span>/</span> CANDY</h1>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid mt-5" src="https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid px-0 text-center">
+            <div class="row align-items-center content">
+                <div class="col-md-6 order-2 order-md-1">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1554&q=80" alt="">
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                            <h2>MUSEUM OF CANDY</h2>
+                            <p class="lead mt-5">The notion of sweet is used to describe what causes a pleasant and subtle effect on the palate. It is about the taste that, in comparison, is not salty, bitter or sour.
+                                It is also often known as sweets to certain foods that are characterized by this type of flavor, such as jams and candies or sweets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center content">
+                <div class="col-md-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                            <h2>MUSEUM OF CANDY</h2>
+                            <p class="lead mt-5">The notion of sweet is used to describe what causes a pleasant and subtle effect on the palate. It is about the taste that, in comparison, is not salty, bitter or sour.
+                                It is also often known as sweets to certain foods that are characterized by this type of flavor, such as jams and candies or sweets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1520966347624-b86c3042b3b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=614&q=80" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center content">
+                <div class="col-md-6 order-2 order-md-1">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1581700251863-338f0b6a42b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                            <h2>MUSEUM OF CANDY</h2>
+                            <p class="lead mt-5">The notion of sweet is used to describe what causes a pleasant and subtle effect on the palate. It is about the taste that, in comparison, is not salty, bitter or sour.
+                                It is also often known as sweets to certain foods that are characterized by this type of flavor, such as jams and candies or sweets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+    <script>
+
+        $(function() {
+    
+            $(document).scroll(function() {
+    
+                var $nav = $("#mainNavbar");
+    
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    
+            });
+    
+        });
+    
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
